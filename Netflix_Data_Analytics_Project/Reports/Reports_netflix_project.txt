@@ -1,0 +1,165 @@
+# Netflix Data Analytics Project Report
+
+## 1. Introduction
+
+The Netflix Data Analytics Project focuses on analyzing Netflix movies and TV shows dataset using Python, SQL, and Power BI. The project aims to understand content trends, ratings distribution, country-wise content production, and overall Netflix content growth.
+
+This project demonstrates the complete data analytics workflow including:
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- SQL Analysis
+- Dashboard Creation
+- Business Insights Generation
+
+---
+
+## 2. Objectives
+
+The main objectives of this project are:
+- Analyze Netflix movies and TV shows data
+- Identify top content-producing countries
+- Compare Movies and TV Shows
+- Analyze ratings distribution
+- Study content release trends over years
+- Build an interactive Power BI dashboard
+
+---
+
+## 3. Tools & Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- MySQL Workbench
+- Power BI
+- Jupyter Notebook
+
+---
+
+## 4. Dataset Information
+
+Dataset Name:
+netflix_titles.csv
+
+Dataset contains:
+- Show ID
+- Type (Movie/TV Show)
+- Title
+- Director
+- Cast
+- Country
+- Date Added
+- Release Year
+- Rating
+- Duration
+- Genre
+- Description
+
+---
+
+## 5. Data Cleaning Process
+
+Data cleaning was performed using Python and Pandas.
+
+Steps performed:
+- Imported dataset using pandas
+- Checked missing values
+- Removed duplicate rows
+- Converted date columns
+- Filled null values
+- Created new columns:
+  - year_added
+  - month_added
+  - day_added
+
+Cleaned dataset was saved as:
+cleaned_netflix_data.csv
+
+---
+
+## 6. Exploratory Data Analysis (EDA)
+
+Performed analysis on:
+- Movies vs TV Shows
+- Top 10 Countries
+- Rating Distribution
+- Genre Analysis
+- Release Year Trends
+- Content Added Over Years
+
+Visualizations created using:
+- Bar Charts
+- Line Charts
+- Donut Charts
+- Treemap
+
+---
+
+## 7. SQL Analysis
+
+SQL analysis was performed using MySQL Workbench.
+
+Queries included:
+- Total content count
+- Movies count
+- TV Shows count
+- Top countries analysis
+- Ratings analysis
+- Year-wise content analysis
+- Filtering by country and type
+
+---
+
+## 8. Power BI Dashboard
+
+An interactive Power BI dashboard was created with:
+- KPI Cards
+- Movies vs TV Shows Donut Chart
+- Top Countries Bar Chart
+- Ratings Analysis
+- Release Year Trend
+- Genre Treemap
+- Interactive Slicers
+
+Dashboard provides easy visualization and understanding of Netflix content trends.
+
+---
+
+## 9. Key Insights
+
+- Movies are more available than TV Shows on Netflix.
+- United States has the highest content contribution.
+- Netflix content increased rapidly after 2015.
+- TV-MA is the most common rating category.
+- Drama and International Movies are highly popular genres.
+
+---
+
+## 10. Skills Demonstrated
+
+This project demonstrates:
+- Data Cleaning
+- Data Analysis
+- SQL Querying
+- Dashboard Development
+- Data Visualization
+- Business Insight Generation
+
+---
+
+## 11. Conclusion
+
+The Netflix Data Analytics Project helped in understanding the complete workflow of a data analytics project from raw data to dashboard creation.
+
+The project improved practical skills in:
+- Python
+- SQL
+- Power BI
+- Data Visualization
+- Analytical Thinking
+
+This project is useful for showcasing beginner-level data analyst skills in portfolios, resumes, and interviews.
+
+---
+
